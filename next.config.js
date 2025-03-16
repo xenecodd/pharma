@@ -34,6 +34,11 @@ const nextConfig = {
       },
     ],
   },
+  // SEO ve performans iyileştirmeleri
+  poweredByHeader: false, // X-Powered-By başlığını kaldır
+  compress: true, // Gzip sıkıştırma
+  reactStrictMode: true,
+  swcMinify: true, // SWC minifier kullan
 };
 
 export default nextConfig;

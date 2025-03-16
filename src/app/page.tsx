@@ -2,6 +2,14 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
+import { generatePageMetadata } from "@/components/seo/page-seo"
+
+export const metadata = generatePageMetadata({
+  title: "1961'den Beri Cerrahpaşa'da Hizmetinizde",
+  description: "Cerrahpaşa Nur Eczanesi 1961 senesinden beri İstanbul'da majistral ilaç, kozmetik, anne-bebek ürünleri ve itriyat ürünleri sunmaktadır. Ecz. Ayşe O. Akın yönetiminde güvenilir eczacılık hizmeti.",
+  keywords: ["majistral ilaçlar", "kozmetik ürünler", "anne bebek ürünleri", "cerrahpaşa eczane", "istanbul eczane"],
+  canonical: "/",
+});
 
 export default function Home() {
   return (
@@ -11,7 +19,7 @@ export default function Home() {
         <div className="relative h-[80vh] bg-muted overflow-hidden">
           <Image
             src="/images/eczaneoutside.jpg"
-            alt="Nur Eczanesi"
+            alt="Nur Eczanesi - 1961'den beri Cerrahpaşa'da hizmetinizde"
             fill
             className="object-cover"
             priority
@@ -46,7 +54,7 @@ export default function Home() {
               <div className="h-60 relative mb-4 rounded-md overflow-hidden">
                 <Image
                   src="/images/majistral.jpg"
-                  alt="Majistral İlaçlar"
+                  alt="Majistral İlaçlar - Cerrahpaşa Nur Eczanesi"
                   fill
                   className="object-cover"
                 />
@@ -64,7 +72,7 @@ export default function Home() {
               <div className="h-60 relative mb-4 rounded-md overflow-hidden">
                 <Image
                   src="/images/parfume.jpg"
-                  alt="Kozmetik ve İtriyat"
+                  alt="Kozmetik ve İtriyat Ürünleri - Cerrahpaşa Nur Eczanesi"
                   fill
                   className="object-cover"
                 />
@@ -82,7 +90,7 @@ export default function Home() {
               <div className="h-60 relative mb-4 rounded-md overflow-hidden">
                 <Image
                   src="/images/motherbabe.jpeg"
-                  alt="Anne-Bebek Ürünleri"
+                  alt="Anne-Bebek Ürünleri - Cerrahpaşa Nur Eczanesi"
                   fill
                   className="object-cover"
                 />
@@ -113,7 +121,7 @@ export default function Home() {
             <div className="relative h-80 rounded-lg overflow-hidden">
               <Image
                 src="https://ext.same-assets.com/1473267868/256078928.jpeg"
-                alt="Nur Eczanesi Dış Görünüm"
+                alt="Nur Eczanesi Dış Görünüm - Cerrahpaşa İstanbul"
                 fill
                 className="object-cover"
               />
@@ -121,7 +129,7 @@ export default function Home() {
             <div className="relative h-80 rounded-lg overflow-hidden">
               <Image
                 src="https://ext.same-assets.com/494583573/4041989218.jpeg"
-                alt="Nur Eczanesi İç Görünüm"
+                alt="Nur Eczanesi İç Görünüm - Cerrahpaşa İstanbul"
                 fill
                 className="object-cover"
               />
@@ -129,7 +137,7 @@ export default function Home() {
             <div className="relative h-80 rounded-lg overflow-hidden">
               <Image
                 src="https://ext.same-assets.com/3704577899/3837474697.jpeg"
-                alt="Nur Eczanesi Kış"
+                alt="Nur Eczanesi Kış Görünümü - Cerrahpaşa İstanbul"
                 fill
                 className="object-cover"
               />
@@ -154,7 +162,7 @@ export default function Home() {
             <div className="md:w-1/2 h-64 relative rounded-lg overflow-hidden">
               <Image
                 src="https://ext.same-assets.com/3654527109/1870627537.jpeg"
-                alt="Nur Eczanesi İletişim"
+                alt="Nur Eczanesi İletişim - Cerrahpaşa İstanbul"
                 fill
                 className="object-cover"
               />
