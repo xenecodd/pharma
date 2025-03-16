@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nureczanesi.com/</loc>
+    <loc>https://nureczanesi.netlify.app/</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://nureczanesi.com/urunler</loc>
+    <loc>https://nureczanesi.netlify.app/urunler</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nureczanesi.com/urunler/majistral-ilaclar</loc>
+    <loc>https://nureczanesi.netlify.app/urunler/majistral-ilaclar</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nureczanesi.com/urunler/kozmetik</loc>
+    <loc>https://nureczanesi.netlify.app/urunler/kozmetik</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nureczanesi.com/urunler/anne-bebek</loc>
+    <loc>https://nureczanesi.netlify.app/urunler/anne-bebek</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nureczanesi.com/urunler/cilt-bakimi</loc>
+    <loc>https://nureczanesi.netlify.app/urunler/cilt-bakimi</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nureczanesi.com/urunler/sac-sagligi</loc>
+    <loc>https://nureczanesi.netlify.app/urunler/sac-sagligi</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nureczanesi.com/hakkimizda</loc>
+    <loc>https://nureczanesi.netlify.app/hakkimizda</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nureczanesi.com/iletisim</loc>
+    <loc>https://nureczanesi.netlify.app/iletisim</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
